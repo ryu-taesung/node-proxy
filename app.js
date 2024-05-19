@@ -17,7 +17,7 @@ function spawnProcess(from, to) {
         return { error: 'Maximum process limit reached' };
     }
 
-    const child = spawn('node', ['proxy_gpt.js', from, to], {
+    const child = spawn('node', ['proxy_filter.js', from, to], {
         detached: true
     });
 

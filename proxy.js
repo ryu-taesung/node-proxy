@@ -1,3 +1,5 @@
+//from: https://stackoverflow.com/a/19637388
+
 var net = require('node:net');
 
 // parse "80" and "localhost:80" or even "42mEANINg-life.com:80"
